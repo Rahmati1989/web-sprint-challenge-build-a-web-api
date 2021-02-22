@@ -139,7 +139,21 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
-1. Understand and explain the use of Middleware.
-1. The basic principles of the REST architectural style.
-1. Understand and explain the use of Express Routers.
-1. Describe tooling used to manually test the correctness of an API.
+Answer:
+Node.js functions as a development server which will automatically rerun any newly saved code. It can keep a database up to date and query it any way needed. Express is a very lightweight, fast, and efficient server. This can be used with helmet and middleware for better security and debugging purposes.
+
+2. Understand and explain the use of Middleware.
+Answer:
+ Middleware is used between the request and the api endpoint. When middleware is used like this you can further debug the endpoint with additional endpoint error exceptions given the end user's response object wheither it was successfull or not.
+
+3. The basic principles of the REST architectural style.
+Answer: 
+Representational state transfer (REST) and is ypically used with multiple Web services. In order to be used in a REST-based application, a Web Service needs to meet certain constraints; such a Web Service is called RESTful. A RESTful Web service is required to provide an application access to its Web resources in a textual representation and support reading and modification of them with a stateless protocol and a predefined set of operations. By being RESTful, Web Services provide interoperability between computer systems on the internet
+
+4. Understand and explain the use of Express Routers.
+Answer:
+ Express routers are used to communicate to the api endpoint so a request or response object can be used. They will contain either PUT,GET,POST,DELETE types of response functions and will input helper functions from that router's model contained within the same folder.
+
+5. Describe tooling used to manually test the correctness of an API.
+Answer: 
+Jest can be used to test an API. It will see whether or not an endpoint exists the way it was originaly planned to exist. It is a testing tool which helps to debug the backend or frontend to assure the code functions the exact way the programmer has intened for the enduser.
